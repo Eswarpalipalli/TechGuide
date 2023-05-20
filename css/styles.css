@@ -1,0 +1,138 @@
+
+body{
+    font-family: "Montserrat";
+}
+#title{
+    color: #fff;
+    background-color:slategrey;
+}
+.container-fluid{
+ padding: 3% 15%;
+}
+h1 {  
+    font-family: 'Montserrat';  
+    font-size: 3.5rem;  
+    line-height: 1.5;  
+    font-weight: 900;}
+h2{
+    color: #fff;
+    font-size: 2.2rem;
+    line-height: 1.5;
+}    
+
+/* Features styles     */
+
+/* Navigation bar style */
+.navbar{
+    padding-bottom: 4.5rem;
+}
+.navbar-brand{
+    font-weight: bolder;
+    font-size: 2.5rem;
+}
+.nav-item{
+    padding: 0 20px;
+}
+.nav-link{
+    font-family:'Montserrat';
+    font-size: 1.2rem;
+}
+/* Download buttons */
+.download-btn{
+    margin: 5% 3% 5% 0;
+ }
+ .android{
+    color:black;
+    text-decoration: none;
+ }
+ .apple{
+    color:white;
+    text-decoration: none;
+ }
+/*Image style */
+.image{
+    padding-top: 20%;
+    padding-left: 20%;
+    width: 90%;
+    height: 60%;
+}
+#features{
+    background-color:whitesmoke;
+    padding: 7% 15%;
+    margin: 2%;
+}
+.col-lg-4{
+    text-align: center;
+}
+p{
+    color: grey;
+}
+.icons{
+    color:grey;
+    margin-bottom: 1rem;
+}
+.icons:hover{
+    color: #ff4c68 ;
+}
+/* 
+Testimonial section */
+#testimonials{
+    text-align: center;
+    font-family: 'Tilt Neon', cursive;
+    background-color:grey;
+}
+.testimonial-img{
+    width: 30%;
+    margin: 20px;
+}
+.carousel-item{
+    padding:7% 15%;
+}
+
+#press{
+    background-color: whitesmoke;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.press-logo{
+    width: 20%;
+    margin: 20px 20px 50px;
+}
+/* Cta-section */
+#cta{
+    background-color:slategray;
+    color:#fff;
+    padding:7% 15%;
+    text-align: center;
+}
+.cta-head{
+    font-family: "Montserrat";
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+/* Footer */
+#footer{
+    text-align: center;
+    padding: 7% 15%;
+}
+
+@media(max-width:1024px){
+    .image{
+        position:static;
+        transform: rotate(0);
+    }
+    #title{
+        text-align: center;
+    }
+}
+#pricing{
+    background-color: whitesmoke;
+}
+.service{
+    font-size: 2rem;
+    color:whitesmoke;
+   text-align: center;
+}
+.linked{
+    color:black;
+}
