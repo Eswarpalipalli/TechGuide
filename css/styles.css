@@ -116,10 +116,15 @@ Testimonial section */
     padding: 7% 15%;
 }
 
+
 @media(max-width:1024px){
     .image{
         position:static;
-        transform: rotate(0);
+        display: block;
+       margin-left:auto;
+       margin-right:auto;
+       height:500px;
+       width:500px;
     }
     #title{
         text-align: center;
